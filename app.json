@@ -1,5 +1,5 @@
 {
-    "name": "⛦ 𝐁𝐫𝐚𝐧𝐝𝐫𝐝 𝐗 𝐌𝐮𝐬𝐢𝐜 ⛦",
+    "name": "⛦ 𝐈𝐧𝐧𝐨𝐜𝐞𝐧𝐭 𝐗 𝐌𝐮𝐬𝐢𝐜 ⛦",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/62fa7c81c56c1ae31c844.jpg",
     "keywords": [
@@ -24,7 +24,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "7968208807:AAG7tDuqlp4OB9RrGiUgjI1saggOVE3lI0Y",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -34,12 +34,12 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "7817831429",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
-        "value": "",
+        "value": "BQG7uyoAvS66sR3fkL1qoi5uaS7LZz0s6ig5R8t_MEV_QrVlRofIGmA0-mqwZrAPHY18pbS1YOgfWBb6gC2efL0-el3KV-cEsXArtnIZxitPIReTB5akJtPD0JbRap9yzxXPNj-gEhJ_ypKMUpUFGzZPLMw1krQfzvv5QoUbAocKQembSqm9-8p6TNBG_bImKt3DKWMIYocJYsX4TRTOlEqmDxkNeOiRDvmKGU43eXrxceeYB0lW1qKvDT-4BNvRCPk1vEW9ZpzowSlcvUOFxvNQptlZcGxT7rqnqS45oa-B3XGbX9vhj7gXsto9beXV8ciXGdPYxrtqV2F3J5ekpx03L_NOmwAAAAHa8TenAQ",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -49,7 +49,7 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value": "",
+        "value": "innocent",
         "required": false
       },
        "AUTO_GCAST": {
@@ -64,7 +64,7 @@
       }, 
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "",
+        "value": "-1002604755252",
         "required": true
       }
     },
