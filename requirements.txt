@@ -18,7 +18,7 @@ Faker
 pydub
 pycountry
 heroku3
-motor==2.5.1
+motor
 pillow==9.5.0
 psutil
 wget
@@ -57,3 +57,4 @@ openai==0.28.0
 mpv
 moviepy
 lyricsgenius
+pymongo
