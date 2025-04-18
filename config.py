@@ -8,25 +8,26 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "29080362"))
+API_HASH = getenv("API_HASH", "2af932be312ce9c4e4ecb84bce09109e")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "7968208807:AAG7tDuqlp4OB9RrGiUgjI1saggOVE3lI0Y")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
+)
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", Lb Music)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID",-1001861619812))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001861619812))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = int(getenv("OWNER_ID", "7631783820"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -74,7 +75,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = getenv("STRING_SESSION", "BQG7uyoAvS66sR3fkL1qoi5uaS7LZz0s6ig5R8t_MEV_QrVlRofIGmA0-mqwZrAPHY18pbS1YOgfWBb6gC2efL0-el3KV-cEsXArtnIZxitPIReTB5akJtPD0JbRap9yzxXPNj-gEhJ_ypKMUpUFGzZPLMw1krQfzvv5QoUbAocKQembSqm9-8p6TNBG_bImKt3DKWMIYocJYsX4TRTOlEqmDxkNeOiRDvmKGU43eXrxceeYB0lW1qKvDT-4BNvRCPk1vEW9ZpzowSlcvUOFxvNQptlZcGxT7rqnqS45oa-B3XGbX9vhj7gXsto9beXV8ciXGdPYxrtqV2F3J5ekpx03L_NOmwAAAAHa8TenAQ")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
