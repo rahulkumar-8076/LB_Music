@@ -1,6 +1,8 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-<h2 align="center"> 
+<h2 align="center">
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/rahulkumar-8076/LB_Music&branch=main&name=innocent_ak)
      ──
        「⛦ 𝗠𝗨𝗦𝗜𝗖 ⛦」
     ──
