@@ -15,16 +15,17 @@ API_HASH = getenv("API_HASH", "2af932be312ce9c4e4ecb84bce09109e")
 BOT_TOKEN = getenv("BOT_TOKEN", "7968208807:AAG7tDuqlp4OB9RrGiUgjI1saggOVE3lI0Y")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
-)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", Lb Music)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.
+mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lb Music")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID",-1001861619812))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001861619812))
+LOGGER_ID = int(getenv("LOGGER_ID","-1001861619812"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001861619812"))
 
 # Get this value Telegram id
 OWNER_ID = int(getenv("OWNER_ID", "7631783820"))
